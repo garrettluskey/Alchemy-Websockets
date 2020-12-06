@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{32470B4C-0665-44B9-9A55-AF9C671FDAA5}"
 EndProject
@@ -59,8 +59,8 @@ Global
 		{D62E2F92-A930-44D9-90FB-864CAF837BAE}.Release|x86.ActiveCfg = Release|Any CPU
 		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|Mixed Platforms.Build.0 = Release|Any CPU
 		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{45486CDE-86A3-4769-952F-E0821BF79493}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{45486CDE-86A3-4769-952F-E0821BF79493}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,6 +81,9 @@ Global
 		{DEF8E4AE-D1A2-4C33-A4EC-A51BDF6BD09F} = {A8BCA98B-12E7-4E13-99FE-09DDCA10BB26}
 		{D62E2F92-A930-44D9-90FB-864CAF837BAE} = {DEF8E4AE-D1A2-4C33-A4EC-A51BDF6BD09F}
 		{45486CDE-86A3-4769-952F-E0821BF79493} = {8C9C334C-588E-41A1-85FC-9DC035821D27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {933243BD-95C9-434D-AA95-67CB530B1A5E}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = test\Unit\Alchemy\AlchemyUnitTest.csproj
